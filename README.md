@@ -1,14 +1,51 @@
-> Why do I have a folder named ".expo" in my project?
+# 🚀 Space Escape Runner
 
-The ".expo" folder is created when an Expo project is started using "expo start" command.
+Space Escape Runner is a 2D endless runner game built using React Native and Expo. Players control a spaceship, avoid obstacles, and survive as long as possible while achieving the highest score.
 
-> What do the files contain?
+## Features
 
-- "devices.json": contains information about devices that have recently opened this project. This is used to populate the "Development sessions" list in your development builds.
-- "settings.json": contains the server configuration that is used to serve the application manifest.
-- "dev/logs/": contains structured JSONL event logs from CLI commands (e.g. start.log, export.log). These are truncated on each run.
+- 🚀 Smooth spaceship controls
+- ☄️ Endless obstacle generation
+- 🎯 Score tracking
+- 📱 Built with React Native and Expo
+- ⚡ Responsive gameplay
 
-> Should I commit the ".expo" folder?
+## Technologies Used
 
-No, you should not share the ".expo" folder. It does not contain any information that is relevant for other developers working on the project, it is specific to your machine.
-Upon project creation, the ".expo" folder is already added to your ".gitignore" file.
+- React Native
+- Expo
+- TypeScript
+
+## How to Run
+
+### 1. Clone the repository
+
+```bash
+git clone https://github.com/pranathirevuri06-ai/Space-Escape-Runner.git
+```
+
+### 2. Navigate to the project
+
+```bash
+cd Space-Escape-Runner
+```
+
+### 3. Install dependencies
+
+```bash
+npm install
+```
+
+### 4. Start the Expo development server
+
+```bash
+npx expo start
+```
+
+### 5. Run the app
+
+Install **Expo Go** on your Android device and scan the QR code displayed in the terminal or browser.
+
+## Author
+
+**Revuri Pranathi**
